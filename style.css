@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #000104;
+}
+.fillnavy {
+    background-color: #0F1520;
+    color: #D2D2D2;
+}
+.fillblack {
+    background-color: #000104;
+}
+.outline {
+    outline: 1px solid #434344;
+}
+.logo {
+    color: #2C9BD9;
+    font-size: 48px;
+    font-weight: 800;
+    /* outline: 2px solid plum; */
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: max(8vh, 70px);
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#admin {
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    /* outline: 2px solid greenyellow; */
+    align-items: center;
+}
+#admin * {
+    color: #D2D2D2;
+    font-weight: 500;
+    font-size: 16px;
+}
+#search {
+    width: min(290px, 30%);
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 4px;
+}
+#sidebar {
+    /* outline: 2px solid greenyellow; */
+    position: fixed;
+    top: max(8vh, 70px);
+    z-index: -1;
+    height: 92vh;
+    width: min(245px, 40%);
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3rem;
+    line-height: 3rem;
+}
+ul {
+    list-style-type: none;
+}
+#side-nav-main {
+    font-size: 18px;
+}
+#side-nav-sub {
+    font-size: 14px;
+}
+button.black {
+    width: min(108px, 10%);
+    height: 30px;
+    border: 1px solid #434344;
+    color: #D2D2D2;
+    background-color: #000104;
+    overflow: hidden;
+}
+#prof1 {
+    background-image: url('images/prof1.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+.icon {
+    height: 20px;
+}
+ li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+ }
+.avatar-lg {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#page {
+    margin-top: max(8vh, 70px);;
+    margin-left: min(245px, 40%);
+    padding: max(1rem, 35px);
+    color: aqua;
+}
