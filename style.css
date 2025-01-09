@@ -194,8 +194,12 @@ button.black:hover{
     background-size: cover;
     background-position: center;
 }
+.main-icon{
+    height: 2rem;
+    filter: invert(57%) sepia(59%) saturate(2304%) hue-rotate(172deg) brightness(91%) contrast(86%);
+}
 .icon {
-    height: 20px;
+    height: 1.2rem;
 }
 .icon-stat{
     /* z-index: -1; */
